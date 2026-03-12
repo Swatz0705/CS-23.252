@@ -414,6 +414,69 @@ void output(){
 <img width="325" height="271" alt="image" src="https://github.com/user-attachments/assets/a17c10f1-8a30-4882-91d4-1b0b422e557b" />
 
 
+[program8](#assignment8)
+##assignment8
+```
+
+import java.util.Scanner;
+public class DistAdd {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        DistTest t1=new DistTest();
+        DistTest t2=new DistTest();
+        
+        t1.input();
+        t2.input();
+        t1.add3(t2);
+        t1.output();
+    }
+    
+}
+class DistTest
+{
+    int mm;
+    int cm;
+    int m;
+void input(){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the value of millimeter");
+    mm=sc.nextInt();
+    System.out.println("Enter the value of centimeter");
+    cm=sc.nextInt();
+    System.out.println("Enter the value of meter");
+    m=sc.nextInt();
+}
+void add3(DistTest d){
+    mm=mm+d.mm;
+    cm=cm+d.cm;
+    m=m+d.m;
+    if(mm>=10){
+        mm=mm-10;
+        cm=cm+1;
+    }
+    if(cm>=100){
+        cm=cm-100;
+        m=m+1;
+    }
+    
+}
+void output(){
+    System.out.println("m="+m);
+    System.out.println("cm="+cm);
+    System.out.println("mm="+mm);
+        
+}
+}
+
+```
+<img width="298" height="308" alt="image" src="https://github.com/user-attachments/assets/e6b09783-1498-4c5c-aa28-f6dfefcd4eb2" />
+
+
+
 
 
 
