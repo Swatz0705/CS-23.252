@@ -1,6 +1,6 @@
 # CS-23.252
-[program1 wap to reverse the array](# assignment1)
-## assignment1
+[program1 wap to reverse the array](#assignment1)
+##assignment1
 ```
 import java.util.Scanner;
 public class Revarray {
