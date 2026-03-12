@@ -58,7 +58,7 @@ void outarrrev(){
 ```
 <img width="557" height="448" alt="image" src="https://github.com/user-attachments/assets/afcdb4f5-0d02-496c-a104-44c604e2ecfb" />
 
-[program to input/ output methods](#assignment2)
+[program2 to input/ output methods](#assignment2)
 ##assignment2 
 ```
 import java.util.Scanner;
@@ -93,6 +93,71 @@ void output()
 }
 ```
 <img width="338" height="98" alt="image" src="https://github.com/user-attachments/assets/cda85ccc-bc5b-4f8c-bb0a-a7d42bf868e1" />
+
+
+[program3 wap to take input from uuser and dispaly it](#assignment3)
+##assignment3
+```
+import java.util.Scanner;
+
+public class Test2 {
+
+    /**
+     * Main method - program execution starts from here
+     */
+    public static void main(String[] args) {
+        
+        // Creating object of Test3 class
+        Test3 t1 = new Test3();
+        
+        // Calling input method to take values from user
+        t1.input();
+        
+        // Calling output method to display values
+        t1.output();
+    }
+}
+
+/**
+ * Test3 class handles input and output operations
+ */
+class Test3 {
+
+    // Declaring variables
+    int x;
+    int y;
+
+    /**
+     * Method to take input from user
+     */
+    void input() {
+        // Creating Scanner object for user input
+        Scanner sc = new Scanner(System.in);
+
+        // Asking user to enter value of x
+        System.out.println("Enter value of x");
+        x = sc.nextInt();
+
+        // Asking user to enter value of y
+        System.out.println("Enter value of y");
+        y = sc.nextInt();
+    }
+
+    /**
+     * Method to display the entered values
+     */
+    void output() {
+
+        // Printing value of x
+        System.out.println("Value of x: " + x);
+
+        // Printing value of y
+        System.out.println("Value of y: " + y);
+    }
+}
+
+```
+<img width="361" height="132" alt="image" src="https://github.com/user-attachments/assets/cb0a8271-bf0a-408b-bf9c-2e1370682f9a" />
 
 
 
