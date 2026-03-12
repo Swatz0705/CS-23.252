@@ -210,6 +210,89 @@ class Test5 {
 ```
 <img width="313" height="151" alt="image" src="https://github.com/user-attachments/assets/3089b2cd-c983-46c9-8ede-fb58bbd3cf45" />
 
+[program5 wap to perform time operations ](#assignment5)
+##assignment5
+
+```
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author IBM4
+ */
+public class Test6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        long st=System.currentTimeMillis();
+        Test7 t1=new Test7();
+        t1.input();
+        
+        t1.proc();
+        t1.output();
+        Test7 t2=new Test7();
+        t2.input();
+        t2.proc();
+        t2.output();
+        long end=System.currentTimeMillis();
+        System.out.println("Total time in"+(end-st)+"milliseconds");
+        System.out.println(System.getProperty("java.version"));
+        
+    }
+    
+    
+}
+class Test7
+{
+    int x;
+    int y;
+    int z;
+    int k;
+void input()
+{
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter value of x");
+    x=sc.nextInt();
+    System.out.println("Enter the value of y");
+    y=sc.nextInt();
+    System.out.println("Enter the value of z");
+    z=sc.nextInt();
+    System.out.println("Enter the value of k");
+    k=sc.nextInt();
+}
+void proc()
+{
+    x=2*x;
+    y=2*y;
+    z=2*z;
+    k=2*k;
+    
+    
+}        
+        
+
+void output()
+{
+    System.out.println(x);
+    System.out.println(y);
+    System.out.println(z);
+    System.out.println(k);
+}
+}
+
+```
+<img width="292" height="448" alt="image" src="https://github.com/user-attachments/assets/d6f52b8f-8fff-43f1-a2f6-d4022593241c" />
+
+
 
 
 
