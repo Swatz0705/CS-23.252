@@ -414,7 +414,7 @@ void output(){
 <img width="325" height="271" alt="image" src="https://github.com/user-attachments/assets/a17c10f1-8a30-4882-91d4-1b0b422e557b" />
 
 
-[program8](#assignment8)
+[program8 wap to add distances](#assignment8)
 ##assignment8
 ```
 
